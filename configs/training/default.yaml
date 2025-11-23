@@ -1,0 +1,6 @@
+lr: 0.001
+perceptual_weight: 0.1
+max_epochs: 5
+seed: 42
+project_name: "Noise2Noise-Education"
+experiment_name: "AdvancedUNet-Run1"

@@ -1,0 +1,9 @@
+defaults:
+  - _self_
+  - model: unet_residual
+  - data: div2k
+  - training: default
+
+hydra:
+  run:
+    dir: outputs/${now:%Y-%m-%d}/${now:%H-%M-%S}
