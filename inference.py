@@ -7,7 +7,6 @@ import argparse
 from PIL import Image
 from torchvision import transforms
 
-# We don't need DenoisingDataModule anymore for a single image inference
 from src.lightning_module import DenoisingModule
 
 def visualize_single(checkpoint_path, image_path, config_path="configs", noise_factor=0.1):
